@@ -42,4 +42,4 @@ WIREFRAME.
 
 UI.
 
-![UI] (https://www.figma.com/file/58zVtcDP1ufSIAgLOCnZpe/Untitled?node-id=0%3A1&t=ET909lCPi1TlzDAX-1)
+![UI](https://www.figma.com/file/58zVtcDP1ufSIAgLOCnZpe/Untitled?node-id=0%3A1&t=ET909lCPi1TlzDAX-1)
