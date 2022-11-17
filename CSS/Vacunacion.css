@@ -1,9 +1,12 @@
-.encabezado {
-    font-family: 'Roboto Mono', monospace;
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
     height: 6rem;
 }
 
-footer h1 {
+header h1 {
     color: blue;
     text-align: justify;
     float: left;
@@ -13,23 +16,24 @@ footer h1 {
     top: 25px;
 }
 
-footer a {
+header a {
     text-decoration: none;
     float: right;
     margin: 15px;
     position: relative;
+    width: 4rem;
     right: 200px;
     top: 30px;
 }
 
-footer button{
+header button{
     background-color: blue;
     padding: 0.8rem;
     color: white;
     float: right;
     margin: 2px;
     position: relative;
-    right: 180px;
+    right: 120px;
     top: 30px;
     box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
     border-radius: 5px;
@@ -50,9 +54,8 @@ article h1 {
 
 article p {
     text-align: justify;
-    margin: 5px;
     position: relative;
-    left: 150px;
+    left: 120px;
     top: 100px;
 }
 
@@ -64,37 +67,31 @@ article img {
     height: 600px;
 }
 
+.parrafo {
+    text-align: justify;
+    position: relative;
+    left: 0px;
+    top: 100px;
+    padding: 0.5rem;
+    float:left;
+}
+
 .icons {
     background-color: transparent;
     width: 20px;
     height: 20px;
+    margin-right: 0.5rem;
     float: left;
-    left: 150px;
-    top: 123px;
 }
 
-.parrafo {
-    float: left;
+.programa {
+    text-align: justify;
     position: relative;
-    left: 150px;
-    top: 120px;
-}
-
-#icons {
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
+    padding: 0.5rem;
+    left: 120px;
+    top: 245px;
     float: left;
-    position: relative;
-    left: -180px;
-    top: 263px;   
-}
-
-#parrafo {
-    float: left;
-    position: relative;
-    left: -180px;
-    top: 260px;
+    
 }
 
 .tabla {
@@ -107,7 +104,7 @@ article img {
     width: 50%;
     padding: 2rem;
     left: 150px;
-    top: 280px;
+    top: 260px;
 }
 
 .icontab{
@@ -155,29 +152,46 @@ article img {
     height: 50px;
     float: left;   
 }
+
 .marcas th, td {
     text-align: left;
     padding: 1rem;
 }
- .preparativos {
-    float: right;
-    right: 150px;
-    position: relative;
- }
 
-.preparativos h1 p {
-    padding: 3rem;
+.preparativos {
+    text-align: left;
+    float: right;
+
 }
 
- div img {
+.preparativos h1, p {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+div img {
     background-color: blue;
     width: 50%;
     height: 700px;
     position: relative;
+}
 
- }
- li img {
-    width: 50px;
-    height: 50px;
-    
- }
+li {
+    list-style-type: none;
+    height: 100px;
+}
+
+li img, a {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
