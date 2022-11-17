@@ -1,0 +1,183 @@
+.encabezado {
+    font-family: 'Roboto Mono', monospace;
+    height: 6rem;
+}
+
+footer h1 {
+    color: blue;
+    text-align: justify;
+    float: left;
+    margin: 5px;
+    position: relative;
+    left: 150px;
+    top: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    float: right;
+    margin: 15px;
+    position: relative;
+    right: 200px;
+    top: 30px;
+}
+
+footer button{
+    background-color: blue;
+    padding: 0.8rem;
+    color: white;
+    float: right;
+    margin: 2px;
+    position: relative;
+    right: 180px;
+    top: 30px;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+article {
+    background-image: url(../HTML/Imagenes/Vacunacion/fondo-blanco.webp);
+    height: 600px;
+}
+
+article h1 {
+    text-align: justify;
+    margin: 5px;
+    position: relative;
+    left: 150px;
+    top: 75px;
+}
+
+article p {
+    text-align: justify;
+    margin: 5px;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+article img {
+    float: right;
+    background: blue;
+    width: 50%;
+    position: relative;
+    height: 600px;
+}
+
+.icons {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    float: left;
+    left: 150px;
+    top: 123px;
+}
+
+.parrafo {
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 120px;
+}
+
+#icons {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+    left: -180px;
+    top: 263px;   
+}
+
+#parrafo {
+    float: left;
+    position: relative;
+    left: -180px;
+    top: 260px;
+}
+
+.tabla {
+    text-align: center;
+    background: white;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 5px;
+    position: relative;
+    width: 50%;
+    padding: 2rem;
+    left: 150px;
+    top: 280px;
+}
+
+.icontab{
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.boton {
+    background-color: blue;
+    padding: 0.8rem;
+    color: white;
+    float: right;
+    margin: 2px;
+    width: 100px;
+    position: relative;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 5px;
+    top: 15px;
+}
+
+.marcas {
+    box-shadow: rgba(0,0,0,0.3);
+    width: 95%;
+    margin: 0 auto;
+    padding: 6rem;
+}
+
+.logos {
+    width: 200px;
+    height: 80px;
+}
+
+.vacunar {
+    text-align-last:left;
+    margin-left: 150px;
+    padding: 1rem;
+    
+}
+
+.logotabla {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    float: left;   
+}
+.marcas th, td {
+    text-align: left;
+    padding: 1rem;
+}
+ .preparativos {
+    float: right;
+    right: 150px;
+    position: relative;
+ }
+
+.preparativos h1 p {
+    padding: 3rem;
+}
+
+ div img {
+    background-color: blue;
+    width: 50%;
+    height: 700px;
+    position: relative;
+
+ }
+ li img {
+    width: 50px;
+    height: 50px;
+    
+ }
