@@ -2,7 +2,7 @@
 
 TOMA DE REQUERIMENTOS.
 
-![Tabla](https://github.com/MrlnTrrzs13/Launch-xPracticas/blob/main/PracticaAbogabot/Imagenes/Tabla.png)
+![Tabla](https://github.com/MrlnTrrzs13/LaunchX-Practicas/blob/main/PracticaAbogabot/Imagenes/Tabla.png)
 
 Es un despacho de abogados que quiere automatizar las demandas de sus clientes.
 Requieren:
@@ -22,20 +22,20 @@ Requieren:
 
 DIAGRAMA DE FLUJO.
 
-![DiagramaDeFlujo](https://github.com/MrlnTrrzs13/Launch-xPracticas/blob/main/PracticaAbogabot/Imagenes/DiagramaDeFlujo.png)
+![DiagramaDeFlujo](https://github.com/MrlnTrrzs13/LaunchX-Practicas/blob/main/PracticaAbogabot/Imagenes/DiagramaDeFlujo.png)
 
 
 BUYER PERSONA.
 
-![Persona](https://github.com/MrlnTrrzs13/Launch-xPracticas/blob/main/PracticaAbogabot/Imagenes/Persona.png)
-![Persona1](https://github.com/MrlnTrrzs13/Launch-xPracticas/blob/main/PracticaAbogabot/Imagenes/Persona1.png)
+![Persona](https://github.com/MrlnTrrzs13/LaunchX-Practicas/blob/main/PracticaAbogabot/Imagenes/Persona.png)
+![Persona1](https://github.com/MrlnTrrzs13/LaunchX-Practicas/blob/main/PracticaAbogabot/Imagenes/Persona1.png)
 
 
 PÚBLICO OBJETIVO.
 
-![PublicoObjetivo](https://github.com/MrlnTrrzs13/Launch-xPracticas/blob/main/PracticaAbogabot/Imagenes/PublicoObjetivo.jpg)
+![PublicoObjetivo](https://github.com/MrlnTrrzs13/LaunchX-Practicas/blob/main/PracticaAbogabot/Imagenes/PublicoObjetivo.jpg)
 
 
 WIREFRAME.
 
-![PublicoObjetivo](https://github.com/MrlnTrrzs13/Launch-xPracticas/blob/main/PracticaAbogabot/Wireframe.pdf)
+![PublicoObjetivo](https://github.com/MrlnTrrzs13/LaunchX-Practicas/blob/main/PracticaAbogabot/Wireframe.pdf)
