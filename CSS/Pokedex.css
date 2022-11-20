@@ -1,0 +1,105 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: grey;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+header img {
+    width: 200px;
+    float: left;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+.container {
+    background-image: url(../HTML/Imagenes/Pokedex/pokedex.png);
+    background-size: 1020px;
+    display: flex;
+    width: 1020px;
+    height: 740px;
+    margin: 0 auto;
+}
+
+.pokephoto {
+    width: 740px;
+    height: 740px;
+}
+
+.pokeinfo {
+    width: 700px;
+    height: 740px;
+}
+
+.pokephoto img {
+    padding-left: 9rem;
+    padding-top: 14rem;
+}
+
+input {
+    background-color: #30CB58;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    width: 153px;
+    height: 66px;
+    margin-left: 7.7rem;
+    margin-top: 10.3rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);    
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+#pokedata {
+    background-color: transparent;
+    color: chartreuse;
+    font-size: x-large;
+    width: 315px;
+    height: 142px;
+    margin-top: 235px;
+    margin-left: 94px;
+}
+
+button {
+    width: 129px;
+    height: 45px;
+    margin-left: 5.8rem;
+    margin-top: 10.8rem;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    float: left;
+}
+
+
+#pokedataA {
+    background-color: transparent;
+    text-align: center;
+    color: chartreuse;
+    font-size: larger;
+    width: 138px;
+    height: 40px;
+    margin-top: 257px;
+    margin-left: -131px;
+    float: left;
+}
+#pokedataT {
+    background-color: transparent;
+    text-align: center;
+    color: chartreuse;
+    font-size: larger;
+    width: 145px;
+    height:40px;
+    margin-top: 256px;
+    margin-left: 44px;
+    float:left;
+}
