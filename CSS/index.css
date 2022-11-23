@@ -1,3 +1,7 @@
+article {
+    text-align: center;
+    margin: 0 auto;
+}
 button:hover {
     cursor: pointer;
 }
@@ -15,11 +19,16 @@ h1 {
 }
 
 #btnS {
-    background-color: cadetblue;
-    border-color: cadetblue;
+    background-color: deeppink;
+    border-color: red;
     color: azure;
     font-size: xx-large;
     padding: 32px;
     text-align: center;
     border-radius: 5px;
 }
+
+.modo_sex img {
+    width: 700px;
+}
+
