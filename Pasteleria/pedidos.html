@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <title>Pasteleria Coco</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Headings -->
+    <header>
+        <section class="logotipo">
+            <img src="./Imagenes/PasteleriaCoco.png" alt="Pasteleria Coco">
+            <h1> Pasteleria Coco</h1>
+        </section>
+
+        <section class="navegadores">
+            <nav>
+                <ul>
+                    <li><a href="#Pedidos">Pedidos</a></li>
+                    <li><a href="#Sucursales">Sucursales</a></li>
+                    <li><a href="#Decoraciones">Decoraciones</a></li>
+                    <li><a href="#Pasteles">Pasteles</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="cuerpo">
+        <section class="pedidos">
+            <h2 class="titulos">Pedidos.</h2>
+        </section>
+        <form>
+            <section class="pedidos">            
+                <h2 class="subtitulo">Datos del cliente:</h2>
+                <label for="Nombre">Nombre</label><br>
+                <input type="text" id="Nombre" class="inputPadron" name="Nombre" placeholder="Ej. Juan">
+                <br>
+                <label for="Telefono">Teléfono</label>
+                <input type="tel" id="Telefono" class="inputPadron" name="Telefono" maxlength="10" placeholder="Ej. 5512345678">
+                <br>
+                <label for="Correo">Correo Electronico</label>
+                <input type="email" id="Correo" class="inputPadron" name="Correo" placeholder="correo@ejemplo.com"><br>
+            </section>
+            <fieldset class="pedidos">
+                <legend class="subtitulo">Selecciona tú sabor(es) Favorito(s).</legend>
+
+                <label for="Fresa"><input type="checkbox" id="Fresa" class="checkbox" name="Fresa" value="Fresa">Fresa</label>
+
+                <label for="Durazno"><input type="checkbox" id="Durazno" class="checkbox" name="Durazno" value="Durazno">Durazno</label>
+
+                <label for="Manzana"><input type="checkbox" id="Manzana" class="checkbox" name="Manzana" value="Manzana">Manzana</label>
+
+                <label for="Limon"><input type="checkbox" id="Limon" class="checkbox" name="Limon" value="Limon">Limon</label>
+
+                <label for="Trufa"><input type="checkbox" id="Trufa" class="checkbox" name="Trufa" value="Trufa">Trufa</label>
+
+                <label for="Chocolate"><input type="checkbox" id="Chocolate" class="checkbox" name="Chocolate" value="Chocolate">Chocolate</label>
+
+                <label for="Cereza"><input type="checkbox" id="Cereza" class="checkbox" name="Cereza" value="Cereza">Cereza</label>
+
+                <label for="Menta"><input type="checkbox" id="Menta" class="checkbox" name="Menta" value="Menta">Menta</label>
+
+                <label for="Nuez"><input type="checkbox" id="Nuez" class="checkbox" name="Nuez" value="Nuez">Nuez</label>
+            </fieldset>
+
+            <fieldset class="pedidos">
+                <legend  class="subtitulo">Selecciona el ó los adornos de tú prederencia.</legend>
+
+                <label for="dumpleanios"><input type="checkbox" id="cumpleanios" class="checkbox" name="cumpleanios" value="cumpleanios">Cumpleaños</label>
+
+                <label for="deportivos"><input type="checkbox" id="deportivos" class="checkbox" name="deportivos" value="deportivos">Deportivos</label>
+
+                <label for="díasFestivos"><input type="checkbox" id="diasFestivos" class="checkbox" name="diasFestivos" value="diasFestivos">Días Festivos</label>
+
+                <label for="bodas"><input type="checkbox" id="bodas" class="checkbox" name="bodas" value="bodas">Bodas</label>
+
+                <label for="aniversario"><input type="checkbox" id="aniversario" class="checkbox" name="aniversario" value="aniversario">Aniversario</label>
+
+                <label for="regaloEspecial"><input type="checkbox" id="regaloEspecial" class="checkbox" name="regaloEspecial" value="regaloEspecial">Regalo Especial</label>
+
+                <label for="quinceAños"><input type="checkbox" id="quinceAnios" class="checkbox" name="15Anios" value="quinceAnios">15 Años</label>
+
+                <label for="infantiles"><input type="checkbox" id="infantiles" class="checkbox" name="infantiles" value="infantiles">Infantiles</label>
+
+                <label for="eventoSocial"><input type="checkbox" id="eventoSocial" class="checkbox" name="eventoSocial" value="evento Social">Evento Social</label>
+            </fieldset>
+            <section class="pedidos">
+                <h3 class="subtitulo">Descripción General del Pastel</h3>
+                <textarea name="descripcion" id="descripcion" cols="50" rows="10" placeholder="Haz una breve descripción del pastel que deseas"></textarea>
+            </section>
+            <section class="pedidos">   
+                <button type="submit" id="enviar">Enviar Pedido</button>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <img src="./Imagenes/PasteleriaCoco.png" alt="logo">
+        <p class="copyright">&copy Copyright LaunchX-Latam - 2022</p>
+    </footer>
+    <script src="pasteleria.js"></script>
+</body>
+</html>
