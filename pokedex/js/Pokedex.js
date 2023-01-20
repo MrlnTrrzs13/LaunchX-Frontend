@@ -17,11 +17,9 @@ const fetchPokemon = () => {
             let pokeImg = data.sprites.front_default;
             let poketype = data.types;
             let pokeabi = data.abilities;
-            let pokeatak = data.moves;
             pokeImage(pokeImg);
             pokeType(poketype);
             pokeAbi(pokeabi);
-            pokeAtak(pokeatak);
             console.log(pokeImg);
         }
     });
