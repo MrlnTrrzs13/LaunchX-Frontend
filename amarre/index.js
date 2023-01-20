@@ -13,13 +13,13 @@ btnN.addEventListener('mouseenter', function(e) {moverPositionRandom(e.target)})
 btnS.addEventListener('click', function(e){
     alert("Sabia que dirias que SI. Casemonos y tengamos hijos. TE AMO!!!")
     sectionModoSexo.style.display = 'block';
-    const cancion = new Audio('../Imagenes/Media\\modo_hot.mp3');
+    const cancion = new Audio('./Media\\modo_hot.mp3');
     cancion.play();
 });
 
 sectionModoSexo.addEventListener ('click', function(e) {
     const img = document.createElement("img");
-    img.src = "../Imagenes/Media/patricio.jpg";
+    img.src = "./Media/patricio.jpg";
     console.log(img);
     sectionModoSexo.appendChild(img);
 });

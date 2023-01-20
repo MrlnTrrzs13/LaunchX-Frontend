@@ -20,7 +20,7 @@ header h1 {
 }
 
 .container {
-    background-image: url(../Imagenes/Pokedex/pokedex.png);
+    background-image: url(../Pokedex/pokedex.png);
     background-size: 1020px;
     display: flex;
     width: 1020px;
