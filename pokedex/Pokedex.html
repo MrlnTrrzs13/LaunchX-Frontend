@@ -2,12 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/Pokedex.css">    
 </head>
 <body>
@@ -15,19 +11,22 @@
         <img src="./Pokedex/Pokémon.png" alt="pokedex">
         <h1>Pokedex LaunchX</h1>
     </header>
-    <article class="container">
+    <main class="container">
         <div class="pokephoto">
             <img src="./Pokedex/pokeball.png" alt="Pokemon" id="pokeImg" width="220px" height="220px">
             <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
         </div>
         <div class="pokeinfo">
-            <div id="pokedata">Habilidades del Pokémon</div>
-            <button onclick="fetchPokemon()">Buscar Pokémon</button>
-            <div id="pokedataT">Tipo</div>
+            <textarea disabled id="pokedata" cols="30" rows="10">POKEDEXT</textarea>
+            <button class="btn" onclick="fetchPokemon()">Buscar Pokémon</button>
+            <textarea disabled class="dato" id="pokeid" cols="30" rows="10">Id</textarea>
+            <textarea disabled class="dato" id="pokeNomb" cols="30" rows="10">Nombre</textarea>
         </div>
-    </article>
+    </main>
+
+    <footer>
+        <img src="./Pokedex/Pokémon.png" alt="pokedex">
+    </footer>
 </body>
-<footer>
-    <script src="./js/Pokedex.js"></script>
-</footer>
+<script src="./js/Pokedex.js"></script>
 </html>
