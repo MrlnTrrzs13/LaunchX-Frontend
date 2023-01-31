@@ -43,13 +43,10 @@ const pokeId = (identificador) => {
 
 const pokeAbi = (abilities,typ) => {
     const resultado =document.getElementById("pokedata");
-    //const pokeabilities = document.getElementById("pokedata");
-    //const poketipo = document.getElementById("pokedata");
     const abilitiesname = abilities.map((item) => item.ability.name);
     const typename = typ.map((item) => item.type.name);
     resultado.innerHTML = `Abilidad: ${abilitiesname}
                            Tipo: ${typename}`;
-    //resultado.innerHTML = `Tipo: ${typename}`;
 }
 
 const pokeNombre = (nombre) => {
