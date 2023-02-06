@@ -1,0 +1,307 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, .indicacion, .logosMarcas, .info, .cuestionamiento, .motivos, .preparacion, .text h1, .contacto {
+    display: block;
+    position: relative;
+}
+
+header, nav, .imagen img, .indicacion, .logosMarcas, .info, .preparacion, .image img, .contacto {
+    width: 100%;
+}
+
+.logo, .navegador, .texto, .imagen, .image, .text {
+    width: 50%;
+}
+
+.logo, .texto, .logoMarcas {
+    display: inline-block;
+    position: relative;
+}
+
+.navegador, .imagen, .image {
+    display: inline-block;
+    position: absolute;
+}
+
+.logo h1, header button, nav, nav li, .texto h1, .texto h3, .texto p, .programa, .tabla, .icontab, .boton {
+    position: relative;
+}
+
+header {
+    background: #CDEEFF;
+    height: 10rem;
+    margin: 0 auto;
+}
+
+.logo {
+    background: white;
+    height: 10rem;
+    
+}
+
+.logo h1 {
+    color: blue;
+    text-align: justify;
+    float: left;
+    margin: 5px;
+    left: 110px;
+    top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navegador {
+    height: 10rem;
+    right: 0%;
+}
+
+header button {
+    background-color: blue;
+    padding: 25px;
+    color: white;
+    float: right;
+    margin: 0 auto;
+    right: 80px;
+    top: 41px;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+header button:hover {
+    transform: scale(1.2);
+}
+
+nav {
+    display: inline;
+    font-size: 18px;
+}
+nav li a, .text li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    padding: 25px;
+    width: auto;
+    height: auto;
+    right: 130px;
+    top: 69px;
+    margin: 0 auto;
+}
+
+article {
+    display:block;
+    background-image: url(./imagenes/fondo-blanco.webp);
+    height: 800px;
+    margin: 0 auto;
+}
+
+.imagen {
+    background: blue;
+    height: 800px;
+    right: 0%;
+}
+
+.imagen img {
+    height: 800px;
+}
+
+.texto h1, .text h1 {
+    font-size: 77px;
+    font-weight: bold;
+    padding: 65px;
+    margin: 30px auto;
+}
+
+.texto p, .text p {
+    font-size: 20px;
+}
+
+.texto h3, .texto p {
+    margin: 0 auto;
+    padding-left: 65px;
+}
+
+.indicacion {
+    height: 150px;
+    margin: 10px auto;
+    padding: 35px 0 0 65px;
+}
+
+.indicacion h3 {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.icons {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    margin-right: 0.5rem;
+    vertical-align: bottom;
+}
+
+.programa {
+    text-align: justify;
+    padding: 0.5rem;
+    left: 120px;
+    top: 245px;
+    float: left;
+}
+
+.tablaCita {
+    display: block;
+    height: 166px;
+}
+
+.tabla {
+    text-align: center;
+    background: white;
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 5px;
+    width: 65%;
+    height: 133px;
+    left: 100px;
+    top: 15px;
+}
+
+.tablaCita th, td {
+    height: 50%;
+    width: 26%;
+    font-size: 25px;
+}
+
+.icontab {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+}
+
+.boton {
+    background-color: blue;
+    padding: 25px;
+    color: white;
+    float: right;
+    margin: 0 auto;
+    width: 170px;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border: none;
+    top: 33px;
+    right: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.boton:hover {
+    transform: scale(1.2);
+}
+
+.logosMarcas {
+    height: 200px;
+}
+
+.logoMarcas {
+    width: 21%;
+    height: 120px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.cuestionamiento, .motivos {
+    padding: 50px;
+    margin: 30px;
+}
+
+.cuestionamiento h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.cuestionamiento p {
+    font-size: 25px;
+    padding: 20px;
+    color: gray;
+}
+
+.motivos li {
+    display: inline-block;
+    position: flex;
+    width: 21%;
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.motivos li:hover {
+    transform: scale(1.1);
+}
+
+.motivos img {
+    width: 70px;
+    height: 70px;
+}
+
+.motivos h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.motivos p {
+    font-size: 18px;
+    padding: 15px;
+}
+
+.image {
+    background: blue;
+    height: 789px;
+}
+
+.text {
+    display: block;
+    position: absolute;
+    width: 50%;
+    right: 0%;
+}
+
+.text h1, .text p, .text ul {
+    padding: 50px 0 50px 50px;
+    margin: 0 auto;
+}
+
+.preparacion {
+    height: 789px;
+}
+
+.text li a {
+    color: black;
+}
+
+.contacto {
+    height: 800px;
+}
+
+footer {
+    width: 100%;
+    height:300px;
+    background: grey;
+}
