@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Jefe</title>
+</head>
+<body>
+    <!-- Headings -->
+    <section>
+        <h1>Tacos el Jefe</h1>
+
+        <img src="./Imagenes/TacosElJefe.png" alt="Logo Tacos el Jefe"/>
+    </section>
+    
+    <section>
+        <h2> Menu </h2>
+        <h3> Tacos Grandes.</h3>
+        <p>Todos incluyen papas.</p>
+        <ul>
+            <li>Bisteck .................... $25</li>
+            <li>Pastor ..................... $25</li>
+            <li>Suadero .................... $25</li>
+            <li>Chuleta .................... $25</li>
+            <li>Chorizo .................... $25</li>
+            <li>Campechano ................. $27</li>
+        </ul>
+        <h3>Tacos Pequeños.</h3>
+        <ul>
+        <li>Bisteck .................... $14</li>
+        <li>Pastor ..................... $14</li>
+        <li>Suadero .................... $14</li>
+        <li>Chuleta .................... $14</li>
+        <li>Chorizo .................... $14</li>
+        <li>Campechano ................. $17</li>
+        </ul>   
+        <h3>Tacos Especiales.</h3>
+        <p>Todos incliyen papas y quesillo.</p>
+
+        <ul>
+        <li><b>Labrador </b> .................... $35</li>
+        <dd>Bisteck, Pastor, Suadero</dd><br>
+        <li><b>Pastor Aleman </b> .................... $35</li>
+        <dd>Pastor, Chuleta, Chorizo</dd><br>
+        <li><b>Pug </b> .................... $33</li>
+        <dd>Bisteck y Suadero</dd><br>
+        <li><b>Bull Terrier</b> .................... $35</li>
+        <dd>Chorizo, Pastor, Bisteck</dd><br>
+        <li><b>Rottweiler</b> .................... $40</li>
+        <dd>Bisteck, Pastor, Suadero, Chuleta,Chorizo</dd>
+        </ul> 
+    </section>
+
+    <hr>
+    
+    <section>
+        <hr>Sucursales.</hr>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href ="https://g.page/taqueria-orinoco?share" target="_blank"> Av. Álvaro Obregón 179, Roma Norte </a> </a></td>
+                <td>9 - 20 hrs</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://g.page/MiPan-mx?share" target="_blank"> Av. de los Ejidos 278, Los Reyes Ixtacala </a></td>
+                <td>9 - 20 hrs</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/KgkuVTfgwRZyRM7r7" target="_blank"> Av Cd Universitaria 301, C.U., Coyoacán </a></td>
+                <td>9 - 20 hrs</td>
+            </tr>
+        </table>
+    </section>
+    
+    <hr>
+
+    <section>
+        <h2>Pedidos.</h2>
+        <h3>Haz tú pedido aquí</h3>
+
+        <p>¿Qué taqueria quieres?</p>
+        <form action="">
+            <select>
+                <option value="Norte">Norte</option>
+                <option value="Centro">Centro</option>
+                <option value="Sur">Sur</option>
+            </select>
+        </form>
+
+        <h2>Ordena tú pedido.</h2><br>
+        <input type="checkbox" id="Bisteck" name="Bisteck" value="Bisteck">
+        <label for="Bisteck">Bisteck</label>
+        <input type="number" id="BisteckNumber" name="BisteckNumber" placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Pastor" name="Pastor" value="Pastor">
+        <label for="Pastor">Pastor</label>
+        <input type="Number" id="PastorNumber" name="PastorNumber" placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Suadero" name="Suadero" value="Suadero">
+        <label for="Suadero">Suadero</label>
+        <input type="Number" id="SuaderoNumber" name="SuaderoNumber" placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Chuleta" name="Chuleta" value="Chuleta">
+        <label for="Chuleta">Chuleta</label>
+        <input type="Number" id="ChuletaNumber" name="ChuletaNumber" placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Chorizo" name="Chorizo" value="Chorizo">
+        <label for="Chorizo">Chorizo</label>
+        <input type="Number" id="ChorizoNumber" name="ChorizoNumber" placeholder="Cantidad">
+        <br>
+        <input type="checkbox" id="Campechano" name="Campechano" value="Campechano">
+        <label for="Campechano">Campechano</label>
+        <input type="Number" id="CampechanoNumber" name="CampechanoNumber" placeholder="Cantidad">
+    </section>
+
+    <hr>
+
+    <section>
+    <h2>Datos del cliente:</h2>
+    <label for="Nombre">Nombre</label>
+    <input type="text" id="Nombre" name="Nombre" placeholder="Ej Juan">
+    <br>
+    <label for="Dirección">Dirección</label>
+    <input type="text" id="Dirección" name="Dirección" placeholder="Ej Calle, Numero. Delegación">
+    <br>
+    <label for="Telefono">Telefono</label>
+    <input type="text" id="Telefono" name="Telefono" placeholder="Ej 5512345678">
+    <br><br>
+
+    <button type="submit">Enviar Pedido</button>
+    <br><br>
+    </section>
+</body>
+</html>
