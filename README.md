@@ -1,3 +1,5 @@
 # Practicas. Launch-X Latam
-Desarrollo de páginas web
-MISIONFRONTEND
+
+En esta misión veremos cómo funcionan las aplicaciones y es tu introducción a la programación Web.
+
+![Frontend Image](/frontend.gif)
